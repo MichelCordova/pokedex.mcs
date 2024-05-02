@@ -1,0 +1,49 @@
+.home__container {
+    font-family: monospace;
+    max-width: 1024px;
+    height: calc(100vh - 139px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home__title{
+    color: #DD1A1A;
+    margin-bottom: 20px;
+
+}
+
+.home-title2{
+    color: #0C0C0C ;
+}
+
+
+.home__form{
+    width: 50%;
+    height: 40px;
+    display: flex;
+
+}
+.home__input{
+    width: 100%;
+    
+}
+
+.home__button{
+    width: 40%;
+    height: 40px;
+    background-color: #DC162F;
+    color: #fff;
+}
+
+
+.home__red{
+    border: 40px solid #DC162F;
+}
+
+.home__black{
+    border: 30px solid #0C0C0C;
+}
